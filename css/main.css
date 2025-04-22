@@ -1975,9 +1975,6 @@ a[class] {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   -webkit-column-gap: 20px;
   -moz-column-gap: 20px;
   column-gap: 20px;
@@ -1996,6 +1993,9 @@ a[class] {
   border-top: 1px solid var(--color-white-20);
   margin-top: 24px;
   padding-top: 13px;
+}
+.product .steps-container .summary__location > div {
+  text-align: right;
 }
 .product .steps-container .summary__location > div span {
   display: inline-block;
